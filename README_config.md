@@ -20,3 +20,13 @@ Running the git clone in the ```~/.config/``` directory:
 git clone https://github.com/Hnhat1234/My-hyprland-config.git
 ```
 
+In the hyprpaper.config, remmeber to change your monitor, and wallpaper:
+
+```hyprland
+wallpaper {
+    monitor = <Your monitors>
+    path = /path/to/wallpaper.png
+    fit_mode = <Some mode>
+}
+```
+
