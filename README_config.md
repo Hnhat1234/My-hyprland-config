@@ -13,6 +13,7 @@ Packages:
 * hyprlauncher
 * kitty
 * thunar
+* xdg-desktop-portal-gtk
 
 Running the git clone in the ```~/.config/``` directory:
 
