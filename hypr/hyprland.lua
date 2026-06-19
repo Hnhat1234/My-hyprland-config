@@ -49,6 +49,7 @@ local menu        = "hyprlauncher"
 --
 hl.on("hyprland.start", function ()
    hl.exec_cmd("waybar & hyprpaper & /home/hnhatn/.config/hypr/xdg-autostart.sh & systemctl --user start hyprpolkitagent")
+   hl.exec_cmd("/home/hnhatn/.config/hypr/widgets_start.sh")
    hl.exec_cmd("fcitx5 -d")
  end)
 
