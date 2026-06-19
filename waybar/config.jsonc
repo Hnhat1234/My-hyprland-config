@@ -12,9 +12,6 @@
         "sway/scratchpad",
         "custom/media"
     ],
-    "modules-center": [
-        "hyprland/window"
-    ],
     "modules-right": [
         "group/hardware",
         "group/system-control",
