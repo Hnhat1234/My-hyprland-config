@@ -4,16 +4,23 @@ import { Clock } from "./clock.tsx"
 import css from "./style.css"
 
 const { TOP } = Astal.WindowAnchor
+const { IGNORE } = Astal.Exclusivity
 
 function Bar(){
     return (
-        <window visible anchor={TOP} class="Bar">
+        <window
+            visible
+            anchor={TOP}
+            exclusivity={IGNORE}
+            application={app}
+            class="Bar"
+        >
             <box>
                 <Clock/>
             </box>
         </window>
-    ) 
-} 
+    )
+}
 app.start({
     css: css,
     main(){
